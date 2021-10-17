@@ -1,0 +1,25 @@
+.carousel-inner {
+    min-height: 287px;
+    max-height: 462px;
+
+    .carousel-item {
+        background-size: cover;
+        background-position: center center;
+        
+    }
+}
+
+.carousel-indicators [data-bs-target] {
+    height: 30px;
+    border: 0;
+    border-radius: 2px;
+    background-color: white;
+    opacity: 1;
+    margin: 0 7px;
+    box-shadow: 0 3px 6px black;
+}
+
+.carousel-indicators .active {
+    background-color: getColor(primary);
+}
+

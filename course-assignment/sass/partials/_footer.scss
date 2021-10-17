@@ -1,0 +1,43 @@
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 6%;
+}
+
+.video-icons{
+    font-size: 34px;
+    color: getColor(text-medium);
+    margin: 10px;
+    text-align: center;
+    flex: 100%;
+}
+
+@media screen and (min-width: 768px){
+    footer {
+        text-align: center;
+        align-items: center;
+        padding: 0 6%;
+        height: 53px;
+
+        >:first-child {
+            text-align: left;
+        }
+
+        >:last-child {
+            text-align: right;
+        }
+    }
+    
+    .video-icons {
+        flex: 20%;
+        margin: 0;
+    }
+
+    footer p {
+        flex: 20%;
+        margin: 10px;
+    }
+
+
+}

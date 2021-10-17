@@ -1,0 +1,15 @@
+$font-heading: "Playfair Display", serif;
+$font-main: "Lato", sans-serif;
+
+$colors: (
+    primary: #E92569,
+    text-dark: #0A0A0A,
+    text-medium: #767676,
+    light-grey: #F5F5F5,
+    medium-grey: #EFEFEF,
+    dark-grey: #E5E5E5
+);
+
+@function getColor($color) {
+    @return map-get($colors, $color);
+}

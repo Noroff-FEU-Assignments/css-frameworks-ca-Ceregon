@@ -1,0 +1,27 @@
+.pagination {
+    margin-top: 20px;
+    
+    &.bottom-pagination {
+        padding-bottom: 40px;
+        margin-bottom: 0;
+    }
+}
+
+.page-item {
+    width: 50px;
+    height: 48px;  
+}
+
+.page-link {
+    color: getColor(primary);
+    font-family: $font-main;
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+    border-color: getColor(primary);
+
+    &.active {
+        background-color: getColor(primary);
+        color: white;
+    }
+}

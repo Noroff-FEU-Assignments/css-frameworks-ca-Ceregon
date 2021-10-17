@@ -1,0 +1,25 @@
+body {
+    max-width: 1280px;
+    margin: auto;
+}
+
+h1 {
+    color: getColor(primary);
+    font-family: $font-heading;
+    font-size: 34px;
+}
+
+p {
+    font-family: $font-main;
+    color: getColor(text-medium);
+}
+
+main {
+    background-color: getColor(dark-grey);
+    padding-top: 30px;
+
+    >div, >nav {
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+}
